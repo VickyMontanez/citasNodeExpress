@@ -7,6 +7,7 @@ CREATE TABLE tipo_documento(
     tipdoc_nombre VARCHAR(20),
     tipdoc_abreviatura VARCHAR(20)
 );
+SELECT * FROM genero;
 CREATE TABLE genero(
     gen_id INTEGER AUTO_INCREMENT PRIMARY KEY,
     gen_nombre VARCHAR(20),
@@ -38,6 +39,7 @@ CREATE TABLE estado_cita(
     estcita_id INTEGER AUTO_INCREMENT PRIMARY KEY,
     estcita_nombre VARCHAR(20)
 );
+UPDATE usuario SET usu_id = NOT NULL, usu_nombre = NOT NULL, usu_primer_apellido_usar = NOT NULL, usu_telefono = NOT NULL, usu_direccion = NOT NULL,  usu_tipodoc = NOT NULL;
 
 CREATE TABLE especialidad(
     esp_id INTEGER AUTO_INCREMENT PRIMARY KEY,
