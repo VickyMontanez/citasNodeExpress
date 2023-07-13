@@ -1,0 +1,33 @@
+{
+  "name": "citas_medicas_pry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "tsc": "tsc -w",
+    "dev": "nodemon --quiet ./app.js"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^4.3.5",
+    "class-transformer": "0.5.1",
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "jasmine-core": "^5.0.1",
+    "karma": "^6.4.2",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-webpack": "^5.0.0",
+    "mysql2": "3.5.1",
+    "node": "20.4.0",
+    "nodemon": "3.0.1",
+    "reflect-metadata": "0.1.13",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
