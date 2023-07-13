@@ -7,7 +7,7 @@ CREATE TABLE tipo_documento(
     tipdoc_nombre VARCHAR(20),
     tipdoc_abreviatura VARCHAR(20)
 );
-SELECT * FROM genero;
+SELECT * FROM usuario;
 CREATE TABLE genero(
     gen_id INTEGER AUTO_INCREMENT PRIMARY KEY,
     gen_nombre VARCHAR(20),
@@ -68,3 +68,7 @@ CREATE TABLE cita(
     cit_estadoCita INTEGER,
     FOREIGN KEY (cit_estadoCita) REFERENCES estado_cita(estcita_id)
 );
+
+/* INSERT INTO usuario (usu_id, usu_nombre, usu_segdo_nombre, usu_primer_apellido_usar, usu_segdo_apellido_usar, usu_telefono, usu_direccion, usu_email, usu_tipodoc, usu_genero, usu_acudiente) VALUES ('123','Andres','Santiago','Carvajal','Peliño','3154784596','Bucaramanga','santiagoyo@gmail.com',1,1,1);
+INSERT INTO usuario (usu_id, usu_nombre, usu_segdo_nombre, usu_primer_apellido_usuar, usu_segdo_apellido_usuar, usu_telefono, usu_direccion, usu_email, usu_tipodoc, usu_genero, usu_acudiente) VALUES ('321','Fabio','Alberto','Morales','Petriño','3174578496','Giron','fabio478@outlook.es',1,1,1);
+INSERT INTO usuario (usu_id, usu_nombre, usu_segdo_nombre, usu_primer_apellido_usuar, usu_segdo_apellido_usuar, usu_telefono, usu_direccion, usu_email, usu_tipodoc, usu_genero, usu_acudiente)  VALUES ('74','Alejandra','Señora','Mantilla','Garcia','3007845647','Lebrija','aleja78@outlook.es',2,2,2); */
